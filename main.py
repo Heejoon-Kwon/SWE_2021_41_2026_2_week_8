@@ -24,7 +24,7 @@ a list of integers.
 ist.
  """
  # TODO: Implement sum_of_squares_of_even
- pass
+ return sum(num ** 2 for num in even_int_list)
 
 # Main function
 def main():
